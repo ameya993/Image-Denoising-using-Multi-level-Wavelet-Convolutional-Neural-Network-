@@ -28,3 +28,20 @@ Training & Testing: The model is trained on noisy images and tested to evaluate 
 
 Model Performance: The model's performance is evaluated using standard metrics like Peak Signal-to-Noise Ratio (PSNR) and Structural Similarity Index (SSIM).
 
+
+Steps in the Notebook
+Loading the dataset: The notebook loads noisy and clean images for training.
+
+Preprocessing: Apply wavelet transform for feature extraction.
+
+Model Building: Construct the Multi-level Wavelet Convolutional Neural Network.
+
+Training: Train the model on noisy images.
+
+Testing & Evaluation: Evaluate the model performance using PSNR and SSIM metrics.
+
+Streamlit Web App: The notebook includes Streamlit code to create a simple web interface where users can upload a noisy image and see the denoised result in real-time.
+
+
+RESULTS :  MWCNN  	Blind	sRGB	35.42dB/0.865 (PSNR/SSIM)
+
